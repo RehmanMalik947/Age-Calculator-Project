@@ -1,0 +1,101 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+body
+{
+    background: linear-gradient(270deg,rgb(192, 205, 144),rgb(88, 88, 201),skyblue)
+}
+.h01
+{
+    color:rgb(22, 31, 78)
+}
+.h02
+{
+    color:rgb(22, 31, 78);
+}
+.container
+{
+    width: 100%;
+    max-width: 100vh;
+    
+    padding-left: 80px;
+    padding-top: 80px;
+    transform: scale(1.8); /* Adjust the scale factor as needed */
+    transform-origin: top left; /* This keeps the top left corner fixed */
+    
+}
+
+.container h1
+{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.calculator
+{
+    border-radius: 5px;
+    width: 220px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    background:rgb(255,255,255,0.4);
+}
+
+.type
+{
+margin-top: 9px;
+    background: white;
+    display: inline-flex;
+    border-radius: 3px;
+    height: 23px;
+    
+}
+.type input
+{
+    border: none;
+    outline: none;
+    margin-bottom: 1px;
+    margin-left: 4px;
+    border-radius: 3px ;
+}
+.btn
+{
+    height: 23px;
+    margin-left: 6px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background:rgb(22, 31, 78);
+    width: 65px;
+    font-size: 55%;
+    cursor: pointer;
+    font: bolder;
+    font-weight: 800;
+    color: white;
+    margin-top: 9px;
+}
+.type img
+{
+    width: 22px;
+    border-radius: 3px;
+}
+#result
+{
+    padding-top: 10px;
+    font-size: 17 px;
+    font-weight: bold;
+    
+}
+
+#result span
+{
+    color: aquamarine;
+}
